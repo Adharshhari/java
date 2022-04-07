@@ -19,17 +19,7 @@ public class complex {
 		res1 = s1.r1 + s2.r1;
 		res2 = s1.i1 + s2.i1;
 		 
-		
-		//System.out.println(s1.r1+"+"+s1.i1+"i");
-		//System.out.println(s2.r1+"+"+s2.i1+"i");
-		System.out.println("The result is:"+res1+"+"+res2+"i");
-		
-				
-		
-		
-		
-		
-		
+		System.out.println("The result is:"+res1+"+"+res2+"i");	
 		
 	}
 	
