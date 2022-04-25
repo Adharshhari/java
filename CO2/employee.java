@@ -8,7 +8,7 @@ public class employee {
 		Scanner s=new Scanner(System.in);
 		System.out.print("ente the employee number\n");
 		emp_no=s.nextInt();
-		System.out.print("ente the employee name\n");
+		System.out.print("enter the employee name\n");
 		ename=s.next();
 		System.out.print("ente the salary of employee\n");
 		eSalary=s.nextFloat();
