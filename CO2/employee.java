@@ -10,7 +10,7 @@ public class employee {
 		emp_no=s.nextInt();
 		System.out.print("enter the employee name\n");
 		ename=s.next();
-		System.out.print("ente the salary of employee\n");
+		System.out.print("enter the salary of employee\n");
 		eSalary=s.nextFloat();
 	}
 	public void display(){
