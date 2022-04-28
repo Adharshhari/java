@@ -1,5 +1,5 @@
 
-	
+import java.util.Scanner;
 public class methodarea{
 	void area(int d){
 		int sq = d*d;
@@ -16,10 +16,18 @@ public class methodarea{
 	}
 	
 public static void main(String args[]){
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the side of the square");
+	int sqr = sc.nextInt();
+	System.out.println("Enter the Length and Breadth of the rectangle");
+	int l = sc.nextInt();
+	int b = sc.nextInt();
+	System.out.println("Enter the radius of the circle");
+	double r = sc.nextDouble();
 	methodarea obj = new methodarea();
-	obj.area(2);
-	obj.area(4,8);
-	obj.area(1.2);
+	obj.area(sqr);
+	obj.area(l,b);
+	obj.area(r);
 	
 }
 	
